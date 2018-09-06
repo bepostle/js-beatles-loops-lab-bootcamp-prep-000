@@ -16,7 +16,7 @@ function johnLennonFacts (facts) {
   "He was never a vegetarian",
   "He was a choir boy and boy scout",
   "He hated the sound of his own voice"];
-  let i = 0;
+  var i = 0;
   var hypeFacts = [];
   while (i < facts.length) {
     hypeFacts.push(facts[i] + '!!!');
